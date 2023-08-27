@@ -1,0 +1,8 @@
+.banner-container {
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(222, 248, 76, 1) 0%, rgba(90, 223, 137, 1) 50%, rgba(33, 212, 225, 1) 100%);
+    margin: 6rem 0rem;
+    position: relative;
+  }
+  

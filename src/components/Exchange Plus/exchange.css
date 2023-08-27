@@ -1,0 +1,86 @@
+.exchange {
+    margin: 8rem 5rem;
+    background-color: #262632;
+    height: 370px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.exchange-card1{
+    flex: 0.6;
+    background: linear-gradient(90deg, rgba(222, 248, 76, 1) 0%, rgba(90, 223, 137, 1) 50%, rgba(33, 212, 225, 1) 100%);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+}
+.exchange-card1 h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.exchange-card1 p{
+    font-size: 20px;
+    color: #56565f;
+    font-family: sans-serif;
+}
+.exchange-card2{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.exchange-card2-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.exchange-card2-1A {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    
+}
+
+.card-text h1 {
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    padding-right: 2rem;
+}
+
+.card-text p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 3rem;
+}
+
+.number {
+    background-color: black;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 100px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

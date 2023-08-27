@@ -1,0 +1,134 @@
+.contact{
+    margin: 6rem 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-text h1 {
+    font-family: monospace;
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+}
+
+.contact-text p {
+    font-size: 24px;
+    padding: 1rem 10rem;
+    color: white;
+    line-height: 1.7rem;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row ;
+}
+
+.contact-button1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row ;
+    background: linear-gradient(99deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.05) 100%);
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 40px;
+}
+
+.contact-button1:hover{
+    border-style:solid;
+    border-color: rgba(255, 255, 131, 0.871);
+    border-width: 1px;
+}
+
+.contact-button1 h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.contact-button2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row ;
+    background: linear-gradient(99deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.05) 100%);
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 40px;
+}
+
+.contact-button2:hover{
+    border-style:solid;
+    border-color: rgba(255, 255, 131, 0.871);
+    border-width: 1px;
+}
+
+.contact-button2 h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.under-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem;
+}
+
+.under-contact-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0rem;
+}
+
+.contact-image1{
+    width: 275px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.contact-image2{
+    width: 275px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.contact-image3{
+    width: 550px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.under-contact-text{
+    text-align: left;
+}
+
+.under-contact-text h1{
+    font-family: monospace;
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+}
+
+.under-contact-text p{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    padding: 2rem 0rem;
+}

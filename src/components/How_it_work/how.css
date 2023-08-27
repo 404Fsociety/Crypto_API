@@ -1,0 +1,231 @@
+.how {
+    background: linear-gradient(0deg,#042318 -20.850262325032652%,rgba(4,35,24,0) 50.45045045045045%,#042318 117.76721149682928%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 10rem 4rem;
+    width: 100%;
+}
+.how h1 {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.how h3 {
+    margin-top: 1rem;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 0rem 10rem;
+}
+
+.Card{
+    background-color: #81818b1a;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-content: center;
+    margin-top: 3rem;
+    border-radius: 30px;
+    width:90%;
+    height: 700px;
+}
+
+.card-img {
+    flex: 0.6;
+    padding: 4rem;
+    padding-right: 1rem;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.cards {
+    flex: 1;
+    padding: 4rem;
+    padding-left: 0;
+    display: grid;
+    gap: 5px;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(2,minmax(200px,1fr));
+    grid-template-rows: repeat(2,min-content);
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    position: relative;
+}
+
+.cards-content1{
+    --border-bottom-width: 1px;
+    --border-color: rgba(0, 0, 0, 0);
+    --border-left-width: 1px;
+    --border-right-width: 1px;
+    --border-style: solid;
+    --border-top-width: 1px;
+    background: none 0% 0% / auto repeat scroll padding-box border-box rgba(129, 129, 139, 0.1);
+    width: 100%;
+    border-radius: 30px 30px 0px;
+    opacity: 1;
+    height: 100%;
+    padding: 2rem;
+    text-align: left;
+}
+
+.cards-content1 img {
+    background-color: rgb(76, 114, 252);
+    padding: 0.5rem;
+    border-radius: 100px;
+}
+
+.cards-content1 h1 {
+    font-family: monospace;
+    font-size: 26px;
+    margin-top: 1rem;
+    font-weight: 800;
+}
+
+.cards-content1 p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: rgb(166, 165, 165);
+}
+
+.cards-content2{
+    --border-bottom-width: 1px;
+    --border-color: rgba(0, 0, 0, 0);
+    --border-left-width: 1px;
+    --border-right-width: 1px;
+    --border-style: solid;
+    --border-top-width: 1px;
+    background: none 0% 0% / auto repeat scroll padding-box border-box rgba(129, 129, 139, 0.1);
+    width: 100%;
+    border-radius: 30px 30px 30px 0px;
+    opacity: 1;
+    height: 100%;
+    padding: 2rem;
+    text-align: left;
+}
+
+.cards-content2 img {
+    background-color: rgb(250, 57, 243);
+    padding: 0.5rem;
+    border-radius: 100px;
+}
+
+.cards-content2 h1 {
+    font-family: monospace;
+    font-size: 26px;
+    margin-top: 1rem;
+    font-weight: 800;
+}
+
+.cards-content2 p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: rgb(166, 165, 165);
+}
+
+.cards-content3{
+    --border-bottom-width: 1px;
+    --border-color: rgba(0, 0, 0, 0);
+    --border-left-width: 1px;
+    --border-right-width: 1px;
+    --border-style: solid;
+    --border-top-width: 1px;
+    background: none 0% 0% / auto repeat scroll padding-box border-box rgba(129, 129, 139, 0.1);
+    width: 100%;
+    border-radius: 30px 0px 30px 30px;
+    opacity: 1;
+    height: 100%;
+    padding: 2rem;
+    text-align: left;
+}
+
+.cards-content3 img {
+    background-color: rgb(247, 165, 35);
+    padding: 0.5rem;
+    border-radius: 100px;
+}
+
+.cards-content3 h1 {
+    font-family: monospace;
+    font-size: 26px;
+    margin-top: 1rem;
+    font-weight: 800;
+}
+
+.cards-content3 p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: rgb(166, 165, 165);
+}
+
+.cards-content4{
+    --border-bottom-width: 1px;
+    --border-color: rgba(0, 0, 0, 0);
+    --border-left-width: 1px;
+    --border-right-width: 1px;
+    --border-style: solid;
+    --border-top-width: 1px;
+    background: none 0% 0% / auto repeat scroll padding-box border-box rgba(129, 129, 139, 0.1);
+    width: 100%;
+    border-radius: 0px 30px 30px 30px;
+    opacity: 1;
+    height: 100%;
+    padding: 2rem;
+    text-align: left;
+}
+
+.cards-content4 img {
+    background-color: rgb(35, 247, 35);
+    padding: 0.5rem;
+    border-radius: 100px;
+}
+
+.cards-content4 h1 {
+    font-family: monospace;
+    font-size: 26px;
+    margin-top: 1rem;
+    font-weight: 800;
+}
+
+.cards-content4 p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: rgb(166, 165, 165);
+}
+
+.cards-content1:hover{
+    background-color: rgb(55, 55, 55);
+    border-style: solid;
+    border-color: rgb(111, 252, 89);
+}
+.cards-content2:hover{
+    background-color: rgb(55, 55, 55);
+    border-style: solid;
+    border-color: rgb(111, 252, 89);
+}
+.cards-content3:hover{
+    background-color: rgb(55, 55, 55);
+    border-style: solid;
+    border-color: rgb(111, 252, 89);
+}
+.cards-content4:hover{
+    background-color: rgb(55, 55, 55);
+    border-style: solid;
+    border-color: rgb(111, 252, 89);
+}

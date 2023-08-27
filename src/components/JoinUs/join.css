@@ -1,0 +1,86 @@
+.join {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.join-text{
+    margin: 4rem 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join-text h1 {
+    color: rgb(231, 231, 231);
+    font-family: monospace;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.join-text h3 {
+    margin-top: 1rem;
+    color: rgb(215, 215, 215);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.join-image1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 8rem;
+}
+
+.img1{
+    width: 275px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.img1:hover{
+	transform: scale(1.05);
+}
+
+.img2{
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.img2:hover{
+    transform: scale(1.05);
+}
+
+.img3{
+    width: 280px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.img3:hover{
+    transform: scale(1.05);
+}
+
+.join-image2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 17rem;
+}
+
+.join-image2 img {
+    width: 450px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.join-image2 img:hover{
+    transform: scale(1.05);
+}
